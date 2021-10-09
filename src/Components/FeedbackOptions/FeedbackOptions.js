@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
-import s from "./FeedbackOptions.module.css";
+import PropTypes from 'prop-types'
+import s from './FeedbackOptions.module.css'
 
 export function FeedbackOptions({ onLeaveFeedback }) {
   return (
@@ -29,13 +29,13 @@ export function FeedbackOptions({ onLeaveFeedback }) {
         Bad
       </button>
     </>
-  );
+  )
 }
 
 FeedbackOptions.defaultProps = {
-  onLeaveFeedback: "",
-};
+  onLeaveFeedback: '',
+}
 
 FeedbackOptions.propTypes = {
   onLeaveFeedback: PropTypes.func,
-};
+}
